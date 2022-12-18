@@ -85,7 +85,7 @@ const Login = () => {
              <img className='santaani' src={santawheel} alt='not-visible'/>
              <div className='nameani'>
                  <sapn className='HAPPY'>HAPPY CHRISTMAS</sapn>
-                 <sapn className='ALANA'>ALANA...</sapn>
+                 <sapn className='ALANA'>ALANA</sapn>
              </div>
 
 

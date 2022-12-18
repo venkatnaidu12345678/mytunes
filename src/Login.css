@@ -1,7 +1,39 @@
-.bg {
-    background-image: url("./img/11.jpg");
+.mytunesmaindiv {
+    background-image: url("https://wallpapercave.com/wp/wp3413579.jpg");
     background-repeat: no-repeat;
-    height: 750px;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #mytunestextdiv{
+    margin-left:15%;
+    font-size: 3vw;
+    color: violet;
+    width:fit-content;
+  
+  }
+  .tunetext{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .SUBTEXTTUNES{
+    width: fit-content;
+    margin-left: 2%;
+    font-size: 2vw;
+    font-weight: 500;
+    color: white;
+    margin-top: 2%;
+    
+  }
+  .tunesparadiv{
+    width: 40%;
+    margin-left:5.5%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.2vw;
+  
   }
   .sg{
     background-image:url("./img/12.png")
@@ -9,5 +41,9 @@
   }
   .lg{
     background-image: url('./img/14.jpg.png');
+  }
+  .maindiv{
+    width: 100%;
+    height: 100vh;
   }
   

@@ -4,7 +4,7 @@ import "./Login.css";
 
 const Login = () => {
     return (
-        <div className='w-screen h-screen '>
+        <div className='maindiv '>
             <div className='bg-[#5c5353d8] pl- fixed'>
                 <nav className='flex text-[#f1ecec] gap-10 w-screen p-5 text-xl '>
                     <h3> <a href='#mytunes'>mytunes</a></h3>
@@ -13,16 +13,16 @@ const Login = () => {
                     <h3> <a href='#giftcard'>Gift Card </a></h3>
                 </nav>
             </div>
-            <div className="text-white text-center p-32 h-96 bg  pt-56 ">
-                <div id='mytunes'>
-                    <h1 className='text-4xl mb-10'>my Love</h1>
+            <div className="text-white mytunesmaindiv ">
+                <div id='mytunestextdiv'>
+                    <h1 className='tunetext'>MY TUNES</h1>
                 </div>
-                <div>
-                    <h2 className='text-3xl mb-6'>Your music, movies, and TV shows take center stage.</h2>
+                <div className='SUBTEXTTUNES'>
+                    <span>Your music, movies, and TV shows take center stage.</span>
                 </div>
-                <div>
-                    <p className='text-xl mb-6'>myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want.</p>
-                    <p className='text-xl'>Enjoy all the entertainment myTunes has to offer on your Mac and PC.</p>
+                <div class='tunesparadiv'>
+                    <p>myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want.</p>
+                    <p>Enjoy all the entertainment myTunes has to offer on your Mac and PC.</p>
                 </div>
             </div>
             <div className='text-[white] text-center p-32 bg-[#000000ad] '>

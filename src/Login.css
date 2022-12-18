@@ -1,0 +1,13 @@
+.bg {
+    background-image: url("./img/11.jpg");
+    background-repeat: no-repeat;
+    height: 750px;
+  }
+  .sg{
+    background-image:url("./img/12.png")
+
+  }
+  .lg{
+    background-image: url('./img/14.jpg.png');
+  }
+  

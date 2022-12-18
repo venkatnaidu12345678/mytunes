@@ -53,6 +53,7 @@
    .alanaMainDIV{
      height: 100vh;
      width: 100%;
+     background-image: url("http://wallpapercave.com/wp/vvgu86r.jpg");
     background-size: 100% 100%;
      background-repeat:no-repeat;
      position: relative;
@@ -69,7 +70,6 @@
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin-left: 50%;
       animation: namediv 7s linear ;
     }
     @keyframes namediv {
@@ -85,9 +85,11 @@
     .HAPPY{
       font-size: 4vw;
       font-style:italic;
-      color:rgb(255,215,0);   
+      /* color:rgb(255,215,0);    */
+      color: white;
       font-weight: 500;   
       animation:wish 3s linear infinite ;
+      text-shadow: black 0.5vw 0.5vw;
     }
     @keyframes wish{
       0%{
@@ -110,6 +112,7 @@
       color:rgb(255,215,0);
       animation:wish 3s linear infinite ;
       font-weight: 500; 
+      text-shadow: black 0.5vw 0.5vw;
     }
 
 
@@ -118,7 +121,7 @@
   
 
     .santaani{
-      top:40%;
+      bottom: 10%;
       left: 5%;
       position: absolute;
       height: 15vw;
@@ -422,4 +425,35 @@
       }
     }
     
+
+    @media only screen and (max-width: 600px) {      
+    .HAPPY{
+      font-size: 8vw;
+      font-weight: 500;   
+      animation:wish 3s linear infinite ;
+    }
+      .ALANA{
+        font-size: 8vw;
+      
+      }
+      .santaani{
+        bottom: 20%;
+        left: 8%;
+        position: absolute;
+        height: 22vw;
+        width: 40vw;
+        animation: santa 7s linear ;
+      }
+
+      @keyframes namediv {
+        0%{
+          transform: translateY(-150vw);
+        }
+        100%{
+          transform: translateY(0vw);
+        }
+      }
+
+
+    }
    

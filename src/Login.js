@@ -81,7 +81,7 @@ const Login = () => {
         //         </div>
         //     </div>
         // </div>
-        <div className='alanaMainDIV' style={{"backgroundImage":`url(${background})`}}>
+        <div className='alanaMainDIV'>
              <img className='santaani' src={santawheel} alt='not-visible'/>
              <div className='nameani'>
                  <sapn className='HAPPY'>HAPPY CHRISTMAS</sapn>

@@ -15,7 +15,7 @@ const Login = () => {
             </div>
             <div className="text-white text-center p-32 h-96 bg  pt-56 ">
                 <div id='mytunes'>
-                    <h1 className='text-4xl mb-10'>myTunes</h1>
+                    <h1 className='text-4xl mb-10'>my Love</h1>
                 </div>
                 <div>
                     <h2 className='text-3xl mb-6'>Your music, movies, and TV shows take center stage.</h2>
